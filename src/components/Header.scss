@@ -1,0 +1,25 @@
+header {
+    background-color: #ff0077e2;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+    div {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+      }
+      a{
+      color: #ecf0f1;
+                text-decoration: none;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: #3498db;
+                }
+}
+}

@@ -1,0 +1,71 @@
+.cake {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+
+    .text-content {
+        max-width: 60%;
+        margin-right: 20px;
+    }
+
+    .divImage {
+        max-width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    h1, h2, h3, p {
+        text-align: center;
+    }
+    p{
+        font-size: 25px
+    };
+
+    .divBack {
+        margin-top: 20px; 
+        display: flex;
+        justify-content: center;
+button{
+    background-color: white;
+    font-size: 36px;
+    outline: none;
+    border: none;
+}
+        a {
+
+            color: #000000;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #3498db;
+            }
+        }
+    }
+
+    @media (max-width: 1050px) {
+        width: 80%;
+    }
+
+    @media (max-width: 730px) {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 10px;
+        width: 100%;
+        height: 50%;
+    }
+}
